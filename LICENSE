@@ -1,0 +1,32 @@
+# Orchestra License
+
+Copyright (c) 2024 Antonio de Perio
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary 
+and confidential to Antonio de Perio.
+
+The Software is distributed under the following terms:
+
+## Permitted Use
+- Personal use for software development workflows
+- Commercial use within your organization
+- Distribution of the binary packages as obtained from official releases
+
+## Restrictions
+- No redistribution of modified versions
+- No reverse engineering or decompilation
+- No creation of derivative works
+- Source code is not provided and remains proprietary
+
+## Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+For commercial licensing or questions, contact: antonio@deperio.com

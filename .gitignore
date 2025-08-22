@@ -1,0 +1,16 @@
+# Release artifacts (if any accidentally added)
+*.tar.gz
+*.zip
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
