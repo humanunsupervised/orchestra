@@ -12,7 +12,7 @@ Modern AI development often means juggling **several branches, experiments, and 
 Doing this manually with `git worktree` and `tmux` is possible, but Orchestra wraps this up in a nice workflow.  
 
 Orchestra is **terminal-first** and solves this by:
-- **Terminal-native experience** — built for developers who live in the terminal, no GUI required.
+- **Terminal-native experience** — built for developers who live in the terminal.
 - **Managing Git worktrees** — spin up clean, isolated worktrees for new features, experiments, or agent tasks.  
 - **Integrating with tmux** — map worktrees to tmux sessions for true parallelism in your terminal.  
 - **Keyboard-driven, Vim-friendly interface** — every action is designed for speed and minimal keystrokes.  
