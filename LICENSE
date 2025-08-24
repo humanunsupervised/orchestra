@@ -1,11 +1,11 @@
 # Orchestra License
 
-Copyright (c) 2024 Antonio de Perio
+Copyright (c) 2024 Antonio de Perio and Human Unsupervised Pty Ltd
 
 All rights reserved.
 
 This software and associated documentation files (the "Software") are proprietary 
-and confidential to Antonio de Perio.
+and confidential to Antonio de Perio and Human Unsupervised Pty Ltd.
 
 The Software is distributed under the following terms:
 
@@ -24,18 +24,19 @@ The Software is distributed under the following terms:
 BY USING THIS SOFTWARE FOR COMMERCIAL PURPOSES, YOU ACKNOWLEDGE AND AGREE THAT:
 - The Software is provided without any guarantees of reliability, availability, or fitness for commercial purposes
 - You assume all risks associated with using the Software in a commercial environment
-- The author is not responsible for any business losses, data corruption, or operational failures
+- Neither Antonio de Perio nor Human Unsupervised Pty Ltd are responsible for any business losses, data corruption, or operational failures
 - You are solely responsible for evaluating whether the Software meets your commercial needs
 - You should maintain appropriate backups and have contingency plans
 
 ## Limitation of Liability
-IN NO EVENT SHALL ANTONIO DE PERIO OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
-INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; BUSINESS INTERRUPTION; LOST REVENUE; OR ANY COMMERCIAL DAMAGES
-OR LOSSES) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+IN NO EVENT SHALL ANTONIO DE PERIO, HUMAN UNSUPERVISED PTY LTD, OR THEIR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; BUSINESS INTERRUPTION; LOST
+REVENUE; OR ANY COMMERCIAL DAMAGES OR LOSSES) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
 
 THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU.
 SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY
