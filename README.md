@@ -4,6 +4,8 @@
 
 Multiple branches, multiple sessions, all in harmony — so you can stay focused on building.
 
+![Orchestra Screenshot](assets/orchestra-screenshot.png)
+
 ## 🚀 Why Orchestra?
 
 Modern AI development often means juggling **several branches, experiments, and agents at once**.  
