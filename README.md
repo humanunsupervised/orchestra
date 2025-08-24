@@ -103,35 +103,12 @@ We chose **Git worktrees** and **tmux** as the foundation for Orchestra because 
 And since Orchestra builds on **tmux**, you can use **any terminal-based coding tool** inside your sessions:  
 Claude Code, Opencode, Goose CLI, Vim, Emacs, Helix — whatever fits your flow.  
 
-## 🤖 AI Features
-
-For AI-powered session naming, set your API key:
-
-```bash
-export ANTHROPIC_API_KEY="your-api-key"
-```
-
-Sessions with `auto_` prefix automatically rename based on:
-- Terminal output analysis
-- Current command detection  
-- Application context (OpenCode, SSH, Docker, etc.)
-
 ## 🔧 Requirements
 
 - **Git 2.5+** (for `git worktree` support)
 - **tmux** (for session management)
 - **bash** (shell integration)
 - **jq** (JSON processing)
-
-## 🏗️ Architecture
-
-Orchestra uses a **bridge architecture**:
-- **Rust TUI** - High-performance native interface
-- **Shell APIs** - Battle-tested Git and tmux operations
-- **Bridge Communication** - JSON-based API layer
-- **Cross-Platform** - Single binary per platform
-
-
 
 ## 🚀 Workflow
 
@@ -140,7 +117,6 @@ Orchestra uses a **bridge architecture**:
 3. **Create sessions** - Automatically marked for AI naming
 4. **Work & detach** - Normal tmux workflow (Ctrl+B, D)
 5. **Return to TUI** - Sessions intelligently renamed with context
-6. **Persistent state** - UI remembers selections and expansions
 
 ## 📜 License
 
