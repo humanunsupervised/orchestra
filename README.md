@@ -9,7 +9,7 @@ Multiple branches, multiple sessions, all in harmony — so you can stay focused
 ## 🚀 Why Orchestra?
 
 Modern AI development often means juggling **several branches, experiments, and agents at once**.  
-Doing this manually with `git worktree` and `tmux` is slow, error-prone, and distracting.  
+Doing this manually with `git worktree` and `tmux` is possible, but Orchestra wraps this up in a nice workflow.  
 
 Orchestra solves this by:
 - **Managing Git worktrees** — spin up clean, isolated worktrees for new features, experiments, or agent tasks.  
@@ -45,50 +45,12 @@ brew tap humanunsupervised/orchestra
 brew install orchestra
 ```
 
-### Quick Install (Prebuilt Binaries)
-
-#### macOS (Intel)
-```bash
-curl -L https://github.com/adeperio/orchestra/releases/latest/download/gw-orchestrator-macos-intel.tar.gz | tar xz
-cd gw-orchestrator-macos-intel && ./install.sh
-```
-
-#### macOS (Apple Silicon)
-```bash
-curl -L https://github.com/adeperio/orchestra/releases/latest/download/gw-orchestrator-macos-arm64.tar.gz | tar xz
-cd gw-orchestrator-macos-arm64 && ./install.sh
-```
-
-#### Linux x64
-```bash
-curl -L https://github.com/adeperio/orchestra/releases/latest/download/gw-orchestrator-linux-x64.tar.gz | tar xz
-cd gw-orchestrator-linux-x64 && ./install.sh
-```
-
-### Cargo (coming soon)
-For Rust developers, once Orchestra is published to crates.io:
-
-```bash
-cargo install orchestra
-```
-
-### Manual Download
-Prebuilt binaries for Linux and macOS are available under [Releases](https://github.com/humanunsupervised/orchestra/releases).  
-Download, extract, and run:
-
-```bash
-tar -xzf orchestra-vX.X.X-linux-x86_64.tar.gz
-./orchestra
-```
-
 ## 🎹 Usage
 
 Simply run Orchestra inside a Git repository:
 
 ```bash
 orchestra
-# or use the legacy commands:
-gwr  # Launch the primary TUI interface (recommended)
 ```
 
 From there, the **TUI takes over**:
@@ -109,13 +71,6 @@ The main interface provides:
 
 **Key Controls:**
 - `↑/↓` Navigate • `Enter` Select/Expand • `d` Delete • `c` Create • `q` Quit
-
-### CLI Interface
-```bash
-gw ls          # List worktrees
-gw ch main     # Switch to main branch
-gw d old-feature  # Delete worktree and branch
-```
 
 Because Orchestra runs inside tmux, you can:
 - Run your **app/server** in one session  
@@ -148,30 +103,6 @@ We chose **Git worktrees** and **tmux** as the foundation for Orchestra because 
 And since Orchestra builds on **tmux**, you can use **any terminal-based coding tool** inside your sessions:  
 Claude Code, Opencode, Goose CLI, Vim, Emacs, Helix — whatever fits your flow.  
 
-## 🔧 Shell Integration
-
-For directory switching, add to your `~/.bashrc` or `~/.zshrc`:
-
-```bash
-gwr() {
-  local out="$(command gwr "$@")"
-  local status=$?
-  local cd_line="$(echo "$out" | grep -m1 '^cd')"
-  [[ -n $cd_line ]] && eval "$cd_line"
-  echo "$out" | grep -v '^cd'
-  return $status
-}
-
-gw() {
-  local out="$(command gw "$@")"  
-  local status=$?
-  local cd_line="$(echo "$out" | grep -m1 '^cd')"
-  [[ -n $cd_line ]] && eval "$cd_line"
-  echo "$out" | grep -v '^cd'
-  return $status
-}
-```
-
 ## 🤖 AI Features
 
 For AI-powered session naming, set your API key:
@@ -200,16 +131,11 @@ Orchestra uses a **bridge architecture**:
 - **Bridge Communication** - JSON-based API layer
 - **Cross-Platform** - Single binary per platform
 
-### Package Contents
-Each release package includes:
-- Pre-compiled binary (`gw-orchestrator`)
-- Runtime shell scripts (`gwr.sh`, `gw.sh`, APIs)
-- Installation script with proper permissions
-- Platform-specific optimizations
+
 
 ## 🚀 Workflow
 
-1. **Launch TUI** (`orchestra` or `gwr`) from any git repository
+1. **Launch TUI** (`orchestra`) from any git repository
 2. **Navigate visually** through worktrees and sessions
 3. **Create sessions** - Automatically marked for AI naming
 4. **Work & detach** - Normal tmux workflow (Ctrl+B, D)
