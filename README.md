@@ -1,6 +1,6 @@
 # 🎼 Orchestra
 
-**Orchestra** is a fast, terminal-first TUI application for managing your **Git worktrees** and **tmux sessions** — built for AI coders working with parallel tasks and coding agents like [Claude Code](https://claude.ai) and [Opencode](https://opencode.ai).
+**Orchestra** is a fast, terminal-first TUI application for managing your **Git worktrees** and **tmux sessions** — built for AI coders working with parallel tasks and coding agents like [Claude Code](https://claude.ai), [Opencode](https://opencode.ai), and [Codex](https://openai.com/blog/openai-codex).
 
 Multiple branches, multiple sessions, all in harmony — so you can stay focused on building.
 
