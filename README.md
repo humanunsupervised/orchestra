@@ -46,6 +46,13 @@ brew tap humanunsupervised/orchestra
 brew install orchestra
 ```
 
+### npm (Node.js)
+Install globally via npm on any platform with Node.js installed:
+
+```bash
+npm install -g @humanu/orchestra
+```
+
 ## 🎹 Usage
 
 Simply run Orchestra inside a Git repository:
