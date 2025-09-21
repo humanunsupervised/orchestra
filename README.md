@@ -138,4 +138,3 @@ For issues and feature requests, please create an issue in this repository.
 
 **Built with ❤️ using Rust + ratatui for modern terminal experiences.**
 
-Professional development workflow orchestration for teams and individuals.
