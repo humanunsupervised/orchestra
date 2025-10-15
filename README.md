@@ -6,6 +6,10 @@ Multiple branches, multiple sessions, all in harmony — so you can stay focused
 
 ![Orchestra Screenshot](assets/orchestra-screenshot.png)
 
+## Found a bug? Suggest a feature?
+
+Feel free to create a github issue! 
+
 ## 🚀 Why Orchestra?
 
 Modern AI development often means juggling **several branches, experiments, and agents at once**.  
